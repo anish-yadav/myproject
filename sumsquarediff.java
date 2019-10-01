@@ -7,8 +7,8 @@ public static void main(String[]args)
 	int diff=0;
 	for(int i=1;i<=100;i++)
 	{
-		s=s+i;
-		sum=sum+(i*i);
+		s += i;
+		sum += (i*i);
 	}
 	sqr=s*s;
 	System.out.println("Difference between sum of squares and square of sum is::"+(sqr-sum));
